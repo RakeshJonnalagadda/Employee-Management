@@ -1,0 +1,115 @@
+/* General Styles */
+.container {
+    padding: 20px;
+  }
+  
+  h3.text-center {
+    margin-bottom: 20px;
+  }
+  
+  /* Card Styling */
+  .card {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form Styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input.form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+  button.btn-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button.btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Media Queries */
+  
+  /* Small Screens (Mobile Portrait) */
+  @media (max-width: 600px) {
+    .container {
+      width: 95%;
+      margin: 0 auto;
+    }
+  
+    .card {
+      padding: 15px;
+    }
+  
+    .form-group {
+      margin-bottom: 10px;
+    }
+  
+    input.form-control {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  
+  /* Medium Screens (Tablets) */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .card {
+      padding: 20px;
+    }
+  
+    input.form-control {
+      font-size: 16px;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  }
+  
+  /* Large Screens (Desktops) */
+  @media (min-width: 769px) {
+    .container {
+      width: 50%;
+      margin: 0 auto;
+    }
+  
+    .card {
+      padding: 30px;
+    }
+  
+    .form-group {
+      margin-bottom: 20px;
+    }
+  
+    button {
+      font-size: 18px;
+    }
+  }
+  

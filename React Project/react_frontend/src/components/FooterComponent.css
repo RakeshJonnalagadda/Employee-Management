@@ -1,0 +1,52 @@
+/* General Footer Styles */
+.footer {
+    /* background-color: black; */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;
+  }
+  
+  /* Footer Text */
+  .footer .text-muted {
+    font-size: 14px;
+  }
+  
+  /* Media Queries */
+  
+  /* Small Screens (Mobile Portrait) */
+  @media (max-width: 600px) {
+    .footer {
+      padding: 15px;
+    }
+  
+    .footer .text-muted {
+      font-size: 12px;
+    }
+  }
+  
+  /* Medium Screens (Tablets) */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 20px;
+    }
+  
+    .footer .text-muted {
+      font-size: 14px;
+    }
+  }
+  
+  /* Large Screens (Desktops) */
+  @media (min-width: 769px) {
+    .footer {
+      padding: 30px;
+    }
+  
+    .footer .text-muted {
+      font-size: 16px;
+    }
+  }
+  

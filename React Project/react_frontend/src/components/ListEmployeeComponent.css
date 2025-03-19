@@ -1,0 +1,111 @@
+/* General Styles */
+.employee-list-container {
+    padding: 20px;
+  }
+  
+  h2.text-center {
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons and Links */
+  .btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Media Queries */
+  
+  /* Small Screens (Mobile Portrait) */
+  @media (max-width: 600px) {
+    .employee-list-container {
+      width: 95%;
+      margin: 0 auto;
+    }
+  
+    /* Table Styling */
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 8px;
+    }
+  
+    /* Buttons */
+    .btn {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    /* Stack form inputs vertically on small screens */
+    .btn-info, .btn-danger {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    h2.text-center {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Medium Screens (Tablets) */
+  @media (max-width: 768px) {
+    .employee-list-container {
+      width: 90%;
+    }
+  
+    /* Table Styling */
+    table {
+      font-size: 16px;
+    }
+  
+    /* Buttons */
+    .btn {
+      width: 100%;
+    }
+  
+    /* Stack form inputs vertically on tablet screens */
+    .btn-info, .btn-danger {
+      width: 100%;
+    }
+  }
+  
+  /* Large Screens (Desktops) */
+  @media (min-width: 769px) {
+    .employee-list-container {
+      width: 80%;
+    }
+  
+    /* Table Styling */
+    table {
+      font-size: 18px;
+    }
+  
+    /* Buttons */
+    .btn {
+      width: auto;
+    }
+  }
+  
